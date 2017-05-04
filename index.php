@@ -53,7 +53,8 @@
                   position: item.coordinate,
                   label: item.index,
                   map: map,
-                  icon:icn
+                  icon:icn,
+                  title: item.distance
                 });
 
             });

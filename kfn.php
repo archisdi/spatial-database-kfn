@@ -36,7 +36,7 @@
 			}
 			else if($long_new == "!")
 			{
-        array_push($destination,['index' => $i ,'coordinate' => end($temp)]);
+        array_push($destination,['index' => $i ,'coordinate' => end($temp), 'distance' => strval($jarak[$i])]);
 				// echo "Jarak : $jarak[$i]";
 				// echo "<BR>";
 				$long_old = $long_1;
