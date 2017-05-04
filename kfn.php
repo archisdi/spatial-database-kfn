@@ -15,7 +15,7 @@
   $destination = array();
 	// echo "$long_old,$lat_old<BR>";
 
-	$fh = fopen('format.txt','r');
+	$fh = fopen('data.txt','r');
 
 	while ($line = fgets($fh))
 	{
